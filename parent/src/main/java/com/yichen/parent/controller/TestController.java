@@ -1,6 +1,6 @@
 package com.yichen.parent.controller;
 
-import com.yichen.constants.ColorConstants;
+import com.yichen.constants.DayConstants;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,7 +15,7 @@ public class TestController {
 
     @RequestMapping("/show")
     public String show(){
-        return ColorConstants.NAME;
+        return DayConstants.NOW;
     }
 
 }

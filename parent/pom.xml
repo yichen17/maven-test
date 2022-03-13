@@ -25,9 +25,17 @@
 
 		<dependency>
 			<groupId>com.yichen</groupId>
+			<artifactId>father</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.yichen</groupId>
 			<artifactId>grandparent</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
