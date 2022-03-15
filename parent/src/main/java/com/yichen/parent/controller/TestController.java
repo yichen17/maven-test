@@ -1,6 +1,7 @@
 package com.yichen.parent.controller;
 
 import com.yichen.constants.DayConstants;
+import com.yichen.constants.PositionConstants;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,5 +18,11 @@ public class TestController {
     public String show(){
         return DayConstants.NOW;
     }
+
+    @RequestMapping("get")
+    public String get(){
+        return PositionConstants.POS;
+    }
+
 
 }
